@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    	​<meta name="description" content="Juego simple que guarda datos en IndexedDB">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script src="./scripts/base_datos.js" type="text/javascript"></script>
+        <script src="./scripts/juego.js" type="text/javascript"></script>
+        <link href="./estilo/estilo.css" rel="stylesheet" type="text/css" /> 
+        <title>Indexed Game</title>
+    </head>
+    <body>       
+	    <h1>Probando IndexedDB</h1>
+	    <input type="text" id="nombre" placeholder="Escribe tu nombre" style="width: 200px;" />
+	    <!--<input type="text" id="puntos" placeholder="Puntos acá" style="width: 200px;" />-->
+	    <button onclick="comenzar()">Juego nuevo</button>
+	    <button onclick="mostrar()">Actualizar puntuaciones</button>
+	    <!--<button onclick="agregar()">Agregar</button>-->
+	    <p>
+	    <canvas width="600" height="450" title="juego" id="tablero" >juego</canvas>
+	    <ul id="listaPuntajes">Ultimas puntuaciones</ul>
+	    <!--<button onclick="limpiarLista()">Ocultar puntuaciones</button>-->
+	    <footer align="center">
+		Creado por Edgar Dávila.<br>
+		</footer>             
+  </body>
+</html>

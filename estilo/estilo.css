@@ -1,0 +1,29 @@
+body {
+	color: #222;
+	font: 14px Arial;
+	background-color: gray;
+}
+
+h1 {
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+}
+
+ul {
+	position: absolute;
+	left: 600px;
+	top: 150px;
+	font-size: 18px;
+}
+
+canvas {
+	position: fixed;
+	top: 150px;
+}
+
+footer {
+	position: fixed;
+	top: 750px;
+}

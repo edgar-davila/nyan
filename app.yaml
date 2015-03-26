@@ -1,0 +1,51 @@
+application: indexedgame
+version: 3
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+  
+- url: /scripts
+  static_dir: scripts
+
+- url: /estilo
+  static_dir: estilo
+
+- url: /imagenes
+  static_dir: imagenes
+
+- url: /base_datos.js
+  static_files: static/scripts/base_datos.js
+  upload: static/scripts/base_datos.js
+
+- url: /juego.js
+  static_files: static/scripts/juego.js
+  upload: static/scripts/juego.js
+
+- url: /estilo.css
+  static_files: static/estilo/estilo.css
+  upload: static/estilo/estilo.css
+
+- url: /espacio.jpg
+  static_files: static/imagenes/espacio.jpg
+  upload: static/imagenes/espacio.jpg
+  
+- url: /jugador.png
+  static_files: static/imagenes/jugador.png
+  upload: static/imagenes/jugador.png  
+  
+- url: /jugador2.png
+  static_files: static/imagenes/jugador2.png
+  upload: static/imagenes/jugador2.png
+  
+- url: /meteoro.png
+  static_files: static/imagenes/meteoro.png
+  upload: static/imagenes/meteoro.png
+  
+- url: /explosion.png
+  static_files: static/imagenes/explosion.png
+  upload: static/imagenes/explosion.png
